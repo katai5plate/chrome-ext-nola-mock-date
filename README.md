@@ -1,6 +1,6 @@
-# chrome-ext-spoof-date
+# chrome-ext-nola-mock-date
 
-Date を偽装する Chrome 拡張
+Nola で Date をモックする Chrome 拡張
 
 getDate
 getTime
