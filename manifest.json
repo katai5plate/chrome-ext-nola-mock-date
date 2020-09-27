@@ -1,0 +1,20 @@
+{
+  "name": "SPOOF-DATE",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "",
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "background": {
+    "scripts": ["index.js"]
+  },
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://nola-novel.com/*"],
+      "js": ["index.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
