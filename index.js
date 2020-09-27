@@ -6,7 +6,7 @@ var code = function () {
 
   const _date = Date;
   window.Date = function (...args) {
-    console.log(args);
+    /* console.trace(args); */
     if (args.length) {
       return new _date(...args);
     }
